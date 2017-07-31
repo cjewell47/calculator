@@ -15,7 +15,7 @@ function setup() {
     $('#screen').text($('#screen').text() + operation);
   });
 
-  $('#point').click(function() {
+  $('.point').click(function() {
     deleteReset();
     $('#screen').text($('#screen').text() + '.');
   });
@@ -24,12 +24,12 @@ function setup() {
     $('#screen').text('');
   });
 
-  $('#eq').click(function() {
+  $('.eq').click(function() {
     check();
     $('#screen').text(eval($('#screen').text()));
   });
 
-  $('#save').click(function() {
+  $('.save').click(function() {
     var today = new Date();
     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     let maths = $('#screen').text();
