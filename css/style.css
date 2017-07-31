@@ -14,7 +14,7 @@ li {
   list-style-type: none;
 }
 
-.number, .operator, .eq, .cancel, .point, .save {
+.number, .operator, .eq, .cancel, .point, .save, .delete, .savedMaths {
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
@@ -29,7 +29,6 @@ li {
   font-weight:700;
   text-decoration:none;
   text-shadow:0 0 0 #2b665e;
-  /*padding:12px 18px;*/
 }
 
 .cancel, .save {
