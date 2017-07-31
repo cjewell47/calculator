@@ -35,9 +35,9 @@ function setup() {
     let maths = $('#screen').text();
     let name = window.prompt('Enter the name of this sum');
     let savedMath = $(`<div>
-      <button class="savedMaths col-md-8" value="${maths}">
+      <button class="savedMaths col-md-8 col-sm-8" value="${maths}">
       ${name} / ${date}</button>
-      <button type="button" class="delete col-md-4" value="deleted">Delete</button>
+      <button type="button" class="delete col-md-4 col-sm-4" value="deleted">Delete</button>
       </div>`);
     $('.saved').append(savedMath);
     maths = 0;
