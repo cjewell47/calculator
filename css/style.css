@@ -1,0 +1,76 @@
+body {
+  font-size:15px;
+  text-align:center;
+  background-color:#ccc;
+  background-size: cover;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.number, .operator, .eq, .cancel, .point, .save {
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  background-color:#424242;
+  border:solid 1px #000;
+  box-shadow:0 0 0 1px #2b2b2b;
+  display:inline-block;
+  cursor:pointer;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size:16px;
+  font-weight:700;
+  text-decoration:none;
+  text-shadow:0 0 0 #2b665e;
+  /*padding:12px 18px;*/
+}
+
+.cancel, .save {
+  height: 88px;
+}
+
+.display {
+  color: rgba(46, 241, 94, 0.8);
+  font-family: 'Orbitron', sans-serif;
+  background-color: beige;
+  border:2px solid #000;
+  font-size:40px;
+  height:90px;
+  width: 100%;
+  text-align: center;
+  padding:10px;
+}
+
+#screen {
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+.saved {
+  background-color: beige;
+  height: 220px;
+  border: 2px solid #000;
+}
+
+input[type=button]:active {
+  /*position:relative;*/
+  top:1px;
+}
+
+input[type=button] {
+  text-align:center;
+  padding: 10px 20px;
+  /*width: 100px;*/
+  /*margin: 5px;*/
+}
+
+input[type=button]:hover {
+  color:#95a5a6;
+}
